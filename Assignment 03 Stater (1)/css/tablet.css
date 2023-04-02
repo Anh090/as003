@@ -1,0 +1,114 @@
+ /* For tablets: */
+@media only screen and (min-width: 395px) and (max-width: 800px){
+    header {
+        height: 32vh;
+        background-image: linear-gradient(rgba(0,0,0,0.595), rgba(0,0,0,0.595)),url("../images/banner.jpg");
+    
+    }
+    .nav-item {
+        color: black;
+        text-align: center;
+        padding: 5%;
+        text-decoration: none;
+        font-size: 90%;
+        display: inline-block;
+        text-transform: uppercase;
+        border-left: 2px solid rgba(0, 0, 0, 0.16) ;
+    
+    }
+    #target {
+        text-align: justify;
+        padding-right: 5%;
+    
+        border-right: 1px solid rgba(0, 0, 0, 0.07);
+        background: whitesmoke;
+        padding-left: 20%;
+    
+    }
+    #personal-info {
+        margin-top: -17%;
+    }
+    .section-title {
+        padding-bottom: 10%;
+        font-size: 140%;
+    }
+    
+    .container-n{
+        display: grid;
+        grid-template-rows: 110%;
+
+        margin: auto;
+        line-height: 1.5;
+        font-size: 100%;
+        align-items: center;
+    }
+    .bg-grey {
+        background: #f7f7f7;
+    }
+    .container-0 {
+        display: grid;
+        grid-template-columns: 45% 45%;
+        grid-template-rows: 47%;
+        grid-gap: 3%;
+        padding-left: 5%;
+        padding-top: 5%;
+    
+    }
+    .container-1 {
+        border: 2px solid black;
+        padding: 3%;
+    
+        display: grid;
+        grid-template-rows: 15% 1fr;
+    }
+
+    .container-4 {
+        grid-template-rows: 15% 1fr;
+    
+    }
+    .container-icon {
+        padding-bottom: 10%;
+    
+    }
+    .so-thich {
+        display: grid;
+        text-align: center;
+        grid-template-columns: 25% 25% 25%;
+       
+    }
+    #contai-4-grid {
+        margin-top: -37%;
+    }
+    #contai-5-grid {
+        margin-top: -20px;
+    }
+    .anh1-2 {
+        display: flex;
+        border-bottom: 2px solid#d6c08d;
+        padding-bottom: 2%;
+        margin-top: -12%;
+       
+    }
+    #duong-ke {
+        border-left: 3px solid #d6c08d ;
+        padding-left: 36px;
+    
+    }
+
+    .Cert-img-1 {
+        display: block;
+        padding-top: 5%;
+        padding-right: 2%;
+    
+    }
+    #certificate {
+        padding-right: 2%;
+        margin-left: 3%;
+        margin-top: 21%;
+        margin-bottom: 4%;
+    }
+    .tex-funix-grid {
+        display: inline-block;
+    }
+
+}

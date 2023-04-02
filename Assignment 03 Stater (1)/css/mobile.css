@@ -1,0 +1,63 @@
+/* For mobile phones: */
+@media only screen and (max-width: 395px) {
+    header {
+        height: 15vh;
+    }
+    .nav-item {
+        display: inline-block;
+        border-left: none;
+        padding: 2%;
+    
+    }
+    .container-n{
+        display: block;
+
+        
+    }
+    .container-0 {
+        display: block;
+
+    
+    }
+    .so-thich {
+        display: grid;
+        text-align: center;
+        grid-template-columns:  22% 22% 22% 22%;
+     
+       
+    }
+    .anh1-2 {
+        display: inline-block;
+        border-bottom: none;
+        padding-bottom: 1%;
+        margin: auto;
+    }
+    #certificate img {
+        width: 80%;
+        display: block;
+        padding-bottom: 1%;
+        
+    }
+    .Cert-img-1 {
+        display: block;
+        padding-top: 2%;
+        padding-right: 2%;
+        width: 100%;
+    
+    }
+    #duong-ke {
+        border-left: none ;
+        padding-left: 0%;
+    
+    }
+    .Cert-img-2 img{
+        width: 80%;
+    }
+    .project-img-tex {
+        display: block;
+        
+    }
+    
+
+
+}

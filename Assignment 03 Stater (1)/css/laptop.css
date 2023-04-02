@@ -1,0 +1,414 @@
+
+    * {
+        margin: 0;
+        padding: 0;
+       font-family: 'Rubik',sans-serif;
+    }
+    #banner {
+        display: inline-block;
+    }
+    #banner span {
+        color: #DDDDDD ;
+    }
+    .centered-tex {
+        position: absolute;
+        top: 18%;
+        left: 50%;
+        transform: translate(-50%,0);
+        text-align: center;
+        color: #f7f7f7;
+    }
+     /* #nav-bar {
+        padding-left: 60px;
+    }  */
+    
+    .nav-item {
+        color: black;
+        text-align: center;
+        padding: 20px 77px;
+        text-decoration: none;
+        font-size: 100%;
+        display: inline-block;
+        text-transform: uppercase;
+        border-left: 1px solid rgba(0, 0, 0, 0.16) ;
+    
+    }
+    header {
+        position: relative;
+        height: 100vh;
+    
+        background-image: linear-gradient(rgba(0,0,0,0.595), rgba(0,0,0,0.595)),url("../images/banner.jpg");
+        background-size: cover;
+    
+    }
+    
+    .centered {
+       position: absolute;
+       top: 30%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+    }
+    
+    .bg-grey {
+        background: #f7f7f7;
+    }
+    
+    /* .section > .container{
+        width: 1476px;
+        margin: auto;
+        font-size: 20px;
+        
+       
+    } */
+    .container-n{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 92%;
+    
+        margin: auto;
+        line-height: 1.5;
+        font-size: 100%;
+        align-items: center;
+        padding-top: 5%;
+        
+    }
+    #job-info  {
+        text-align: justify ;
+        padding-left: 3%;
+    }
+    
+    .time-tex {
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .time-tex p {
+        display: inline;
+        padding: 1%;
+    }
+    .time-tex-blue {
+        width: 30%;
+        height: 20%;
+        color: #f7f7f7;
+    
+        border-radius: 20%;
+        background-color: #0066FF;
+    
+        
+    }
+    #target {
+        text-align: justify;
+        padding-right: 5%;
+    
+        padding-left: 5%;
+        border-right: 1px solid rgba(0, 0, 0, 0.07);
+        background: whitesmoke;
+    
+    }
+    #personal-info {
+        text-align: justify;
+        padding-left: 5%;
+        padding-top: 5%;
+       
+    }
+    
+    .icon {
+       
+        color: #0066FF;
+        padding: 2%;
+    }
+    #personal-info li {
+        list-style: none;
+        list-style-position: inside;
+        padding-left: 2%;
+    
+    }
+    .container-0 {
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        grid-gap: 5%;
+    
+        text-align: justify;
+        line-height: normal;
+        font-size: 100%;
+        margin: auto;
+    
+    }
+    .container-1 {
+        border: 2px solid black;
+        padding: 3%;
+    
+        display: grid;
+        grid-template-rows: 15% 41%;
+    }
+    .container-2 {
+        border: 2px solid black;
+        padding: 3%;
+         
+        display: grid;
+        grid-template-rows: 15% 44%;
+    
+    
+    }
+    .container-3 {
+        border: 2px solid black;
+        padding: 3%;
+    
+        display: grid;
+        grid-template-rows: 15% 84%;
+    
+    }
+    .container-4 {
+        border: 2px solid black;
+        padding: 3%;
+    
+        display: grid;
+        grid-template-rows: 28% 61%;
+    
+    }
+    .container-5 {
+        border: 2px solid black;
+        padding: 3%;
+    
+        display: grid;
+        grid-template-rows: 15% 85%;
+    }
+    .container-6 {
+        border: 2px solid black;
+        padding: 3%;
+        display: grid;
+        grid-template-rows: 15% 83%;
+    }
+    
+    
+    
+    .container-icon {
+    
+        text-align: justify;
+        font-size: 70%;
+        display: grid;
+    
+        grid-template-columns: 71% 25%;
+    
+    }
+    
+    .container-tex1 li {
+        list-style-type: circle;
+        color: #111111;
+    
+    }
+    .container-tex1 {
+        margin: 10%;
+    
+    }
+    .container-tex2 {
+    
+        margin-top: 3%;
+        line-height: 1.6;
+        text-align: justify;
+        font-size: 18px;
+    }
+    .span-2 {
+        background: #199cdb ;
+        display: inline-block;
+        height: 2px;
+        margin-right: 2%;
+        width: 45px;
+    }
+    .span-1 {
+        background: #999999;
+        display: inline-block;
+        height: 2px;
+        margin-right: 10px;
+        width: 45px;
+    }
+    .container-2 li {
+        list-style-type: circle;
+    
+    }
+    #job-info h1 {
+        display:inline-block;
+    }
+    #job-info i {
+        font-size: 40px;
+        padding-bottom: 10px;
+        margin: 5px;
+    
+    }
+    
+    .so-thich {
+        display: grid;
+        text-align: center;
+        grid-template-columns: 18% 18% 18% 18% ;
+     
+       
+    }
+    .so-thich  ul i {
+        color: #0066FF;
+        border-radius: 100%;
+        width: 162%;
+        height: 53%;
+        text-align: center;
+        border: 2px solid  #0066FF;
+        padding: 31%;
+    
+    }
+    #certificate h2 {
+        font-size: 100%;
+    }
+    .bg-grey img {
+        width: 26%;
+        height: 40%;
+        display: flex;
+        padding-bottom: 1%;
+        
+    } 
+    .anh1-2 {
+        display: flex;
+        border-bottom: 3px solid#d6c08d;
+        padding-bottom: 2%;
+        margin: auto;
+       
+    }
+    #duong-ke {
+        border-left: 3px solid #d6c08d ;
+        padding-left: 3%;
+    
+    }
+    #certificate li {
+        list-style: none;
+        list-style-position: inside;
+    }
+    #certificate {
+        padding-right: 2%;
+        margin-left: 3%;
+        margin-top: 5%;
+        margin-bottom: 4%;
+    }
+
+    /* .section-title{
+        margin: auto;
+        width: 1279px;
+    } */
+    .project-img-tex {
+        display: grid;
+        grid-template-columns: repeat(3,30%);
+        grid-template-rows:repeat(3,6%,25%);
+        column-gap: 2%;
+        margin: auto;
+        
+    }
+    #project {
+        padding-left: 3%;
+    }
+    #project img {
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+    .tex-0 {
+        grid-row: 2/3;
+        padding: 3%;
+        font-size: 18px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.279);
+        border-left: 1px solid rgba(0, 0, 0, 0.279);
+        border-right: 1px solid rgba(0, 0, 0, 0.279);
+    }
+    .tex-1 {
+        grid-row: 3/4;
+        display: flex;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.279);
+        border-left: 1px solid rgba(0, 0, 0, 0.279);
+        border-right: 1px solid rgba(0, 0, 0, 0.279);
+    }
+    table {
+        grid-row: 4/5;
+        
+    }
+    .time {
+        border-radius: 40%;
+        width: 15%;
+        height: 66%;
+        text-align: center;
+    
+    
+        background-color: #0066FF;
+        color: #f7f7f7;
+        box-sizing: border-box;
+        font-size: 15px;
+    
+    }
+    .tex-funix-grid {
+        display: contents;
+    }
+    .tex-1 p {
+        padding: 2%;
+        margin: 2%;
+        
+    }
+    
+    .tex-2 {
+        text-align: left;
+        padding: 2%;
+    
+        display: grid;
+        grid-template-columns: 25% 75%;
+    
+        border-bottom: 1px solid rgba(0, 0, 0, 0.279);
+        border-left: 1px solid rgba(0, 0, 0, 0.279);
+        border-right: 1px solid rgba(0, 0, 0, 0.279);
+    }
+    
+    .tex-3 {
+    
+        display: inline-block;
+        text-align: left;
+        padding: 3%;
+    
+        display: grid;
+        grid-template-columns: 25% 75%;
+    
+        border-bottom: 1px solid rgba(0, 0, 0, 0.279);
+        border-left: 1px solid rgba(0, 0, 0, 0.279);
+        border-right: 1px solid rgba(0, 0, 0, 0.279);
+    }
+    
+    
+    .tex-4 {
+       
+        display: inline-block;
+        text-align: left;
+        padding:  3%;
+    
+        display: grid;
+        grid-template-columns: 25% 75%;
+    
+        border-bottom: 1px solid rgba(0, 0, 0, 0.279);
+        border-left: 1px solid rgba(0, 0, 0, 0.279);
+        border-right: 1px solid rgba(0, 0, 0, 0.279);
+    }
+    
+    
+    
+    
+    #footer > .container li {
+        display: inline-block;
+        text-align: center;
+        padding: 2%;
+    }
+    #footer {
+        text-align: center;
+        padding:  3%;
+        margin-top: 3%;
+        margin-bottom:  3%;
+    }
+    #footer i {
+        color: #0066FF;
+        font-size: 300%;
+    }
+    .avatar-01 img {
+        transform: scale(7);
+        border: 5px solid #e9ecef7e;
+        border-radius: 50%;
+        box-sizing: border-box;
+    }
+
